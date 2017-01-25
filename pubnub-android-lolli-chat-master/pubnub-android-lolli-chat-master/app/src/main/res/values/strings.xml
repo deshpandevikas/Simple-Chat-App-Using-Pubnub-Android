@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PubNub Chat</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_login">Login</string>
+    <string name="login">Login</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login_submit">Login</string>
+    <string name="signup">Sign Up</string>
+    <string name="bt_cancel">Cancel</string>
+    <string name="bt_signup">Sign Up</string>
+    <string name="et_password1">Confirm Password</string>
+    <string name="et_password">Password</string>
+    <string name="et_email">Email ID</string>
+    <string name="et_fname">First Name</string>
+    <string name="et_lname">Last Name</string>
+
+    <string name="enter_new_channel">Enter new channel:</string>
+    <string name="send_message">Send a message...</string>
+    <string name="action_sign_out">Sign Out</string>
+    <string name="action_change_type">Change to personal chat</string>
+    <string name="action_change_type1">Change to group chat</string>
+    <string name="here_now">Here Now:</string>
+
+
+</resources>

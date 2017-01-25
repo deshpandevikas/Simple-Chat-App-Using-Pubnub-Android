@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="11">
+
+    <TextView
+        android:id="@+id/tvchattuser1"
+        android:text=""
+        android:textColor="@color/pn_blue"
+        android:textSize="15sp"
+        android:layout_weight="5"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tvchattsender"
+        android:text=""
+        android:textColor="@color/pn_red"
+        android:textSize="15sp"
+        android:layout_weight="5"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <View
+        android:id="@+id/user_presence"
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_centerVertical="true"
+        android:layout_toEndOf="@id/chat_user"
+        android:layout_toRightOf="@id/chat_user"/>
+    <TextView
+        android:id="@+id/tvpersonalchattimestamp"
+        android:text="7:45pm"
+        android:textColor="@color/pn_red"
+        android:textSize="12sp"
+        android:layout_weight="1"
+        android:layout_width="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:gravity="end"
+        android:layout_height="wrap_content" />
+
+
+
+</LinearLayout>
