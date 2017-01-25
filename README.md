@@ -1,6 +1,13 @@
 # Simple-Chat-App-Using-Pubnub-Android
 This is a simple chat application developed using PubNub Android. Cloned from GleasonK(Kevin Gleason) pubnub android lolli chat (https://github.com/GleasonK/pubnub-android-lolli-chat)
 
+Extra features added to the existing Kevin's application are:
+1. Person to Person Chart
+2. Sign up for user
+3. Login authentically giving emailid and password (No two people can have the same emailid)
+4. Transition between group and personal messages.
+5. Sign out for personal user
+
 ![login_with_creds](https://cloud.githubusercontent.com/assets/22554907/22282601/80db4fc4-e2ab-11e6-857b-4fcc7f38305e.png)
 ![list_of_users](https://cloud.githubusercontent.com/assets/22554907/22282646/c3e6030e-e2ab-11e6-83e8-aec2fbfbf63a.png)
 ![groupchat](https://cloud.githubusercontent.com/assets/22554907/22282664/e4dcd2c2-e2ab-11e6-8d57-8c7404beffc8.png)
